@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Inter";
+  font-weight: 100 900;
+  src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-grey-900: #141414;
+  --color-grey-800: #1f1f1f;
+  --color-grey-700: #333333;
+  --color-green: #c4f82a;
+
+  --font-inter: "Inter", sans-serif;
+}
